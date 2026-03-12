@@ -56,7 +56,7 @@ Topics include:
 * Cloud platforms
 * Security governance frameworks
 
-**Author**
+**About Me**
 
 Edna Maburi
 Cybersecurity Professional| Cloud Security | API Security | Governance Risk & Compliance
@@ -67,4 +67,4 @@ I am passionate about helping organizations build secure systems through effecti
 
 **LinkedIn**: https://linkedin.com/in/ednamaburi65
 
-**GitHub** profile: https://github.com/Edna-Moraa
+**GitHub profile:** https://github.com/Edna-Moraa

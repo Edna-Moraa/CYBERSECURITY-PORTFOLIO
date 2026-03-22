@@ -1,8 +1,8 @@
 **Cybersecurity Portfolio – Edna Maburi**
 
-Welcome to my cybersecurity portfolio. This repository showcases hands-on projects, security analyses, and practical labs demonstrating my experience in offensive security, governance risk and compliance (GRC), and API security.
+Welcome to my cybersecurity portfolio. This repository contains concise, evidence-driven security work products across **API security** and **governance, risk & compliance (GRC)**.
 
-I focus on building practical cybersecurity skills through real-world scenarios including vulnerability assessment, governance framework design, penetration testing, and security architecture reviews. Each project reflects my commitment to understanding both the technical and strategic aspects of information security.
+My work focuses on identifying risk at the control level (authn/authz, data exposure, configuration, business logic), communicating impact in business terms, and recommending remediations that engineering teams can implement and verify.
 
 **Portfolio Structure**
 
@@ -16,17 +16,6 @@ Topics include:
 * Authentication and authorization flaws
 * OWASP API Security Top 10
 * Secure API design principles and best practices
-
-**Ethical Hacking**
-
-Hands-on labs focused on offensive security techniques and vulnerability discovery.
-
-Topics include:
-
-* penetration testing fundamentals and methodologies
-* vulnerability scanning and analysis
-* network security assessment
-* exploit techniques and attack simulations
 
 **Governance, Risk & Compliance (GRC)**
 
@@ -42,11 +31,11 @@ Topics include:
 
 **Skills Demonstrated**
 
-* Vulnerability assessment
-* API security analysis
-* Security governance design
-* Risk management and compliance
-* Security architecture evaluation
+* API security assessment (OWASP API Top 10)
+* Authorization and authentication testing (JWT/session patterns)
+* Vulnerability assessment and evidence capture
+* Security governance and program design (GRC)
+* Risk communication and remediation planning
 
 **Tools and Technologies**
 
@@ -59,12 +48,20 @@ Topics include:
 **About Me**
 
 Edna Maburi
-Cybersecurity Professional| Cloud Security | API Security | Governance Risk & Compliance
+Cybersecurity Professional | Cloud Security | API Security | Governance Risk & Compliance
 
-I am passionate about helping organizations build secure systems through effective governance, technical controls, and continuous learning. This portfolio documents my ongoing journey in cybersecurity as I develop expertise in securing modern digital environments.
+I help teams reduce risk by pairing **practical testing** with **clear governance and remediation guidance**. This portfolio highlights how I approach assessments: define scope, validate controls, document reproducible evidence, and recommend fixes with retest criteria.
 
 **Contact Information**
 
-**LinkedIn**: https://linkedin.com/in/ednamaburi65
+### Quick navigation
 
-**GitHub profile:** https://github.com/Edna-Moraa
+- **API Security**: [`api-security/`](api-security/)
+- **GRC**: [`grc/`](grc/)
+
+### Publishing & safety note
+
+This portfolio showcases **training and lab work**. All referenced organizations and environments are **fictional** (e.g. deliberately vulnerable apps, hypothetical case studies). No confidential data or secrets are included.
+
+- [LinkedIn](https://linkedin.com/in/ednamaburi65)
+- [GitHub](https://github.com/Edna-Moraa)

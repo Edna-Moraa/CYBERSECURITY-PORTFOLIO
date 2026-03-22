@@ -143,7 +143,7 @@ services client
 
 # Select Client Deliverables
 
-**Healthcare Technology Governance Program **– Governance charter,
+**Healthcare Technology Governance Program**– Governance charter,
 Organizational blueprint, Board reporting dashboard, Steering committee
 Terms of Reference
 

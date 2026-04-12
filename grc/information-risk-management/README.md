@@ -10,7 +10,7 @@ I led a structured **information security risk assessment** using a consolidated
 
 - **Assets in scope**: customer data, financial records, credentials, email infrastructure, cloud-dependent services, enterprise-wide compliance posture.
 - **Risk domains**: ransomware, insider threat, phishing, system resilience, data breach, regulatory compliance, third-party dependency.
-- **Deliverables**: maintained risk register (Excel), written assessment with definitions, prioritization rationale, quantitative analysis, and treatment recommendations.
+- **Deliverables**: risk register ([Risk_Register.xlsx](Risk_Register.xlsx)) and written assessment ([Risk_Assessment_Report.md](Risk_Assessment_Report.md)).
 
 ### Methodology
 
@@ -29,7 +29,7 @@ I led a structured **information security risk assessment** using a consolidated
 | Artifact | File |
 |----------|------|
 | Risk register | [Risk_Register.xlsx](Risk_Register.xlsx) — scores, priority, SLE, ARO, ALE, treatment rationale, alternatives |
-| Assessment narrative | [Risk_Assessment_Summary.docx](Risk_Assessment_Summary.docx) — definitions, qualitative and quantitative analysis, prioritization, recommendations |
+| Assessment report | [Risk_Assessment_Report.md](Risk_Assessment_Report.md) — definitions, qualitative and quantitative analysis, prioritization, recommendations |
 
 ### Core capabilities demonstrated
 

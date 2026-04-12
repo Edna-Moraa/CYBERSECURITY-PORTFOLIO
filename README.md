@@ -1,8 +1,8 @@
-**Cybersecurity Portfolio – Edna Maburi**
+**Cybersecurity Portfolio — Edna Maburi**
 
-Welcome to my cybersecurity portfolio. This repository contains concise, evidence-driven security work products across **API security** and **governance, risk & compliance (GRC)**.
+This repository presents **representative security work** across **API security** and **governance, risk & compliance (GRC)**: structured like client-ready deliverables—clear scope, evidence, findings, and actionable recommendations.
 
-My work focuses on identifying risk at the control level (authn/authz, data exposure, configuration, business logic), communicating impact in business terms, and recommending remediations that engineering teams can implement and verify.
+**How I work:** translate technical exposure into **business and compliance risk**, prioritize what matters for leadership, and specify remediations that engineering and operations can implement and verify.
 
 **Portfolio Structure**
 
@@ -29,13 +29,13 @@ Topics include:
 * breach governance case studies
 * Policy development and security charter writing
 
-**Skills Demonstrated**
+**Core capabilities (illustrated in this portfolio)**
 
 * API security assessment (OWASP API Top 10)
 * Authorization and authentication testing (JWT/session patterns)
-* Vulnerability assessment and evidence capture
+* Technical vulnerability assessment with GRC-oriented reporting
 * Security governance and program design (GRC)
-* Risk communication and remediation planning
+* Risk quantification, treatment planning, and remediation prioritization
 
 **Tools and Technologies**
 
@@ -50,7 +50,7 @@ Topics include:
 Edna Maburi
 Cybersecurity Professional | Cloud Security | API Security | Governance Risk & Compliance
 
-I help teams reduce risk by pairing **practical testing** with **clear governance and remediation guidance**. This portfolio highlights how I approach assessments: define scope, validate controls, document reproducible evidence, and recommend fixes with retest criteria.
+I combine **hands-on validation** with **governance and risk framing** so stakeholders get both proof and context: scoped assessments, defensible evidence, risk-ranked findings, and retest criteria.
 
 **Contact Information**
 
@@ -59,9 +59,9 @@ I help teams reduce risk by pairing **practical testing** with **clear governanc
 - **API Security**: [`api-security/`](api-security/)
 - **GRC**: [`grc/`](grc/)
 
-### Scope of this portfolio
+### Public portfolio notice
 
-Work samples here use **illustrative scenarios and synthetic data** where noted—common practice for public portfolios. They demonstrate methodology and judgment without referencing real clients. No confidential information or production secrets are included.
+Samples use **illustrative scenarios and synthetic data** where indicated—standard for a public profile. They reflect **methodology and analytical approach** without referencing actual clients or confidential environments. No production secrets or restricted data are included.
 
 - [LinkedIn](https://linkedin.com/in/ednamaburi65)
 - [GitHub](https://github.com/Edna-Moraa)

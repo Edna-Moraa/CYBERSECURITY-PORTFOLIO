@@ -2,25 +2,22 @@
 
 ### Executive summary
 
-I assessed a banking-style API running locally and validated security controls aligned to the **OWASP API Security Top 10 (2023)**. Testing covered **API1–API10** and included adjacent real-world checks for **CORS misconfiguration** and **path traversal risk** in upload handling.
+This assessment evaluates a banking-style API (local deployment) against the **OWASP API Security Top 10 (2023)**. Coverage includes **API1–API10** plus **CORS** and **path traversal** in upload handling.
 
-The overall theme across findings was inconsistent enforcement at key trust boundaries: **object ownership checks**, **function-level authorization**, **token integrity/session invalidation**, and **input/schema validation**.
+**Cross-cutting theme:** weak enforcement at trust boundaries—**object ownership**, **function-level authorization**, **token integrity and session lifecycle**, and **input/schema validation**.
 
 ### Scope & environment
 
-- **Role tested**: authenticated “normal user”
-- **Environment**: local Docker deployment
-- **Tooling**:
-  - Postman (OpenAPI import) for API1–API3 style validation and reproducible request sets
-  - Burp Suite (proxy + repeater) for API4–API10 testing and controlled request manipulation/replay
+- **Perspective tested:** authenticated standard user
+- **Environment:** containerized local deployment
+- **Tooling:** Postman (OpenAPI-driven cases); Burp Suite (proxy, repeater) for replay and header/path manipulation
 
-### Skills demonstrated
+### Capabilities demonstrated
 
-- OWASP API Top 10 mapping (API1–API10) with risk-based reporting
-- Authorization testing (object-level + function-level + property-level)
-- JWT/session security validation and retest criteria
-- Manual testing with Postman and Burp Suite with evidence capture
-- Remediation guidance aligned to secure design patterns
+- OWASP API Top 10 (2023) mapping with risk-ordered reporting  
+- Authorization testing: object-, function-, and property-level  
+- JWT/session controls: validation, abuse cases, retest criteria  
+- Evidence-backed findings with remediation aligned to common secure-design patterns  
 
 ---
 

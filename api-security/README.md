@@ -1,14 +1,10 @@
 ## API Security
 
-This section contains API security assessments and write-ups focused on **broken auth**, **authorization gaps**, **input validation**, **rate limiting**, and **secure API design**.
+Representative **API security assessments**: threat-relevant flaws (authn/authz, data exposure, configuration, business logic), mapped to **OWASP API Security Top 10 (2023)** with evidence and remediation guidance.
 
 ### Case studies
 
-
-| Project                                                                        | Description                                                                                                                                                                                                                                                              |
-| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **[Vulnerable Bank API (OWASP API Top 10)](vulnerable-bank-owasp-api-top10/)** | Full OWASP API Security Top 10 (2023) assessment — BOLA, broken authentication, BOPLA, rate limiting, BFLA, business logic abuse, SSRF, path traversal, API inventory, unsafe consumption, and CORS misconfiguration. Postman + Burp Suite testing with inline evidence. |
-
-
-
+| Project | Summary |
+|--------|---------|
+| **[Vulnerable Bank API (OWASP API Top 10)](vulnerable-bank-owasp-api-top10/)** | End-to-end assessment — API1–API10, plus CORS and upload-path issues. Tooling: Postman and Burp Suite. Evidence linked per finding. |
 

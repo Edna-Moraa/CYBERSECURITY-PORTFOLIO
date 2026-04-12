@@ -1,6 +1,6 @@
 ## API Security
 
-Representative **API security assessments**: threat-relevant flaws (authn/authz, data exposure, configuration, business logic), mapped to **OWASP API Security Top 10 (2023)** with evidence and remediation guidance.
+**Sample projects:** API testing focused on authn/authz, data exposure, configuration, and business logic—mapped to **OWASP API Security Top 10 (2023)** with evidence and remediation notes.
 
 ### Case studies
 

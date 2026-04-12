@@ -1,25 +1,17 @@
-# Enterprise Information Security Governance Advisory Practice
+# Information security governance — sample scenarios
 
-# Practice Overview
+## Overview
 
-I advise organizations on the design, implementation and maturation of
-enterprise security governance programs. My engagements focus on
-aligning cybersecurity strategy with business objectives, establishing
-clear accountability structures, and building governance frameworks that
-scale with organizational growth.
+These **illustrative scenarios** describe how I approach **enterprise security governance**: aligning cybersecurity strategy with business goals, clarifying accountability, and choosing frameworks that fit organizational maturity. Sector labels (**healthcare**, **financial services**, **technology**) are **synthetic**—they ground the examples and do not refer to a single real client.
 
-Through consulting engagements spanning healthcare, financial services
-and technology sectors, I help clients transform reactive security
-functions into proactive, business-aligned governance programs.
+## Example scenarios (illustrative)
 
-# Representative Engagements
+### 1. **Governance structure redesign**
 
-# 1. **Governance Structure Redesign**
-
-**Client Context:** A mid-sized healthcare technology organization
+**Context:** A mid-sized healthcare technology organization
 experiencing rapid growth following a security incident
 
-**Engagement Scope**:
+**Scope:**
 
 - Assessed existing governance model identifying critical gaps in board
   oversight, accountability, and decision-making processes
@@ -33,7 +25,7 @@ experiencing rapid growth following a security incident
 - Established Security Steering Committee charter with cross-functional
   representation
 
-**Business Impact:**
+**Business impact:**
 
 - Clear accountability eliminating ambiguity in security decision-making
 
@@ -41,12 +33,12 @@ experiencing rapid growth following a security incident
 
 - Cross-functional collaboration replacing siloed security operations
 
-# 2. **Governance Framework Strategy**
+### 2. **Governance framework strategy**
 
-**Client Context:** Healthcare organization requiring structured
+**Context:** Healthcare organization requiring structured
 approach to security management and regulatory compliance
 
-**Engagement Scope**:
+**Scope:**
 
 - Conducted comparative analysis of ISO 27001 and COBIT frameworks
   against business requirements
@@ -59,7 +51,7 @@ approach to security management and regulatory compliance
 - Aligned framework selection with long-term business and compliance
   objectives
 
-**Business Impact:**
+**Business impact:**
 
 - Framework selection optimized for regulatory environment and
   organizational maturity
@@ -69,25 +61,25 @@ approach to security management and regulatory compliance
 
 - Foundation for future certification readiness
 
-# 3. Breach Governance Analysis
+### 3. **Breach governance analysis**
 
-**Client Context:** Post-incident governance review for financial
-services client
+**Context:** Post-incident governance review for financial
+services organization (synthetic scenario)
 
-**Engagement Scope:**
+**Scope:**
 
 - Analyzed Equifax breach governance failures including organizational
   structure conflicts and accountability gaps
 
-- Identified five critical governance inadequacy applicable to client
-  environment
+- Identified five critical governance inadequacies applicable to the
+  modeled environment
 
 - Developed preventative controls and governance mechanisms
 
 - Presented findings to executive leadership with actionable
   recommendations
 
-**Business Impact:**
+**Business impact:**
 
 - Proactive governance improvements implemented before incidents occur
 
@@ -95,12 +87,12 @@ services client
 
 - Enhanced board-level oversight mechanisms
 
-# 4. Multinational Governance Framework
+### 4. **Multinational governance framework**
 
-**Client Context:** Decentralized financial institution operating across
+**Context:** Decentralized financial institution operating across
 20 countries
 
-**Engagement Scope:**
+**Scope:**
 
 - Developed seven core governance principles balancing global
   consistency with local regulatory requirements
@@ -113,7 +105,7 @@ services client
 - Created reporting mechanisms providing centralized visibility without
   compromising autonomy
 
-**Business Impact:**
+**Business impact:**
 
 - Consistent governance standards across diverse regulatory environments
 
@@ -121,53 +113,53 @@ services client
 
 - Scalable framework supporting continued international expansion
 
-# Areas of Expertise
+## Areas of expertise
 
-- **Governance Architecture –** Organizational structure design,
-  Committee charter development, RACI modelling, Escalation frameworks
+- **Governance architecture** — Organizational structure design,
+  committee charter development, RACI modelling, escalation frameworks
 
-- **Risk Strategy –** Enterprise risk assessment, Control frameworks,
-  Maturity modeling, Risk appetite definition
+- **Risk strategy** — Enterprise risk assessment, control frameworks,
+  maturity modeling, risk appetite definition
 
-- **Regulatory Alignment –** HIPAA, GDPR, PCI-DSS, SOX control mapping,
-  Audit readiness, Compliance program design
+- **Regulatory alignment** — HIPAA, GDPR, PCI-DSS, SOX control mapping,
+  audit readiness, compliance program design
 
-- **Board Advisory –** Security metrics development, Executive
-  reporting, Risk communication, Investment justification
+- **Board advisory** — Security metrics development, executive
+  reporting, risk communication, investment justification
 
-- **Framework Implementation –** ISO 27001, NIST CSF, COBIT, COSO
+- **Framework implementation** — ISO 27001, NIST CSF, COBIT, COSO
   selection and deployment
 
-- **Incident Governance –** Post-incident reviews, Root cause analysis,
-  Preventative control design
+- **Incident governance** — Post-incident reviews, root cause analysis,
+  preventative control design
 
-# Select Client Deliverables
+## Sample outputs
 
-**Healthcare Technology Governance Program**– Governance charter,
-Organizational blueprint, Board reporting dashboard, Steering committee
-Terms of Reference
+**Healthcare technology governance program** — Governance charter,
+organizational blueprint, board reporting dashboard, steering committee
+terms of reference
 
-**Framework Strategy Engagement –** Framework comparison analysis,
-Implementation roadmap, Control selection guidance
+**Framework strategy (sample)** — Framework comparison analysis,
+implementation roadmap, control selection guidance
 
-**Governance Maturity Assessment –** 6-domain maturity assessment,
-18-month strategic roadmap, Executive presentation
+**Governance maturity assessment** — Six-domain maturity assessment,
+18-month strategic roadmap, executive presentation
 
-# Guiding Principles
+## Guiding principles
 
-These principles shape how I approach security governance engagements:
+These principles shape how I approach security governance work:
 
-- Governance enables business, not restricts it – Effective governance
+- Governance enables business, not restricts it — Effective governance
   removes ambiguity, enabling faster, better-informed decisions
 
-- Accountability must be unambiguous – Every security activity requires
+- Accountability must be unambiguous — Every security activity requires
   one accountable owner
 
-- Board engagement is non-negotiable – Without board-level oversight,
+- Board oversight is non-negotiable — Without board-level visibility,
   security remains an IT issue, not a business priority
 
-- Governance scales with the organization – Frameworks must adapt to
+- Governance scales with the organization — Frameworks must adapt to
   organizational maturity, not burden it
 
-- Metrics drive behaviour – What gets measured gets managed; what gets
+- Metrics drive behaviour — What gets measured gets managed; what gets
   reported to the board gets prioritized

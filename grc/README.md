@@ -1,6 +1,6 @@
 ## Governance, Risk & Compliance (GRC)
 
-Representative **GRC deliverables**—governance design, enterprise risk treatment, and compliance-oriented technical assessment. Each item follows a standard consulting structure: **context, scope, approach, findings, recommendations, and artifacts**.
+**What’s here:** governance writing, enterprise risk treatment, and a compliance-oriented technical vulnerability review. Folders are organized around **context, scope, approach, findings, recommendations, and artifacts**.
 
 ### Contents
 

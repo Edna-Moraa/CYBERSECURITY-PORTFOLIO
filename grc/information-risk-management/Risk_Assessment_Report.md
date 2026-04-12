@@ -107,9 +107,9 @@ This better aligns residual risk with regulatory expectations and with the **SLE
 
 ---
 
-## 7. Deliverables
+## 7. Artifacts
 
-| Deliverable | Location |
+| Artifact | Location |
 |-------------|----------|
 | Full risk register (formulas, ARO notes, treatment rationale) | [Risk_Register.xlsx](Risk_Register.xlsx) |
 | This assessment narrative | `Risk_Assessment_Report.md` |

@@ -10,7 +10,7 @@ Structured **information security risk assessment** against a consolidated regis
 
 - **Assets in scope**: customer data, financial records, credentials, email infrastructure, cloud-dependent services, enterprise-wide compliance posture.
 - **Risk domains**: ransomware, insider threat, phishing, system resilience, data breach, regulatory compliance, third-party dependency.
-- **Deliverables**: risk register ([Risk_Register.xlsx](Risk_Register.xlsx)) and written assessment ([Risk_Assessment_Report.md](Risk_Assessment_Report.md)).
+- **Outputs:** risk register ([Risk_Register.xlsx](Risk_Register.xlsx)) and written assessment ([Risk_Assessment_Report.md](Risk_Assessment_Report.md)).
 
 ### Approach
 

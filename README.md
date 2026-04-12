@@ -1,6 +1,6 @@
 **Cybersecurity Portfolio — Edna Maburi**
 
-This repository presents **representative security work** across **API security** and **governance, risk & compliance (GRC)**: structured like client-ready deliverables—clear scope, evidence, findings, and actionable recommendations.
+This repository holds **sample work** in **API security** and **governance, risk & compliance (GRC)**. Each project includes scope, evidence, findings, and remediation or next steps you can trace end to end.
 
 **How I work:** translate technical exposure into **business and compliance risk**, prioritize what matters for leadership, and specify remediations that engineering and operations can implement and verify.
 
@@ -29,11 +29,11 @@ Topics include:
 * breach governance case studies
 * Policy development and security charter writing
 
-**Core capabilities (illustrated in this portfolio)**
+**What this portfolio shows**
 
 * API security assessment (OWASP API Top 10)
 * Authorization and authentication testing (JWT/session patterns)
-* Technical vulnerability assessment with GRC-oriented reporting
+* Technical vulnerability assessment with risk- and compliance-oriented reporting
 * Security governance and program design (GRC)
 * Risk quantification, treatment planning, and remediation prioritization
 
@@ -50,7 +50,7 @@ Topics include:
 Edna Maburi
 Cybersecurity Professional | Cloud Security | API Security | Governance Risk & Compliance
 
-I combine **hands-on validation** with **governance and risk framing** so stakeholders get both proof and context: scoped assessments, defensible evidence, risk-ranked findings, and retest criteria.
+I pair **hands-on testing** with **risk and control framing**: clear scope, evidence-backed findings, severity-ranked issues, and retest criteria.
 
 **Contact Information**
 

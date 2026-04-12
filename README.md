@@ -59,9 +59,9 @@ I help teams reduce risk by pairing **practical testing** with **clear governanc
 - **API Security**: [`api-security/`](api-security/)
 - **GRC**: [`grc/`](grc/)
 
-### Publishing & safety note
+### Scope of this portfolio
 
-This portfolio showcases **training and lab work**. All referenced organizations and environments are **fictional** (e.g. deliberately vulnerable apps, hypothetical case studies). No confidential data or secrets are included.
+Work samples here use **illustrative scenarios and synthetic data** where noted—common practice for public portfolios. They demonstrate methodology and judgment without referencing real clients. No confidential information or production secrets are included.
 
 - [LinkedIn](https://linkedin.com/in/ednamaburi65)
 - [GitHub](https://github.com/Edna-Moraa)

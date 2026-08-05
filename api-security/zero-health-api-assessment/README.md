@@ -88,6 +88,9 @@ After authenticating as a standard user and capturing a legitimate request to `G
 **Retest**  
 Requesting another user’s object ID must return **403** (or equivalent) with no sensitive payload.
 
+**Evidence**
+- [BOLA — cross-user lab results access](evidence/bola/bola-cross-user-lab-results.png)
+
 ---
 
 ### 2. Injection / unsafe input handling — High
@@ -96,7 +99,7 @@ Requesting another user’s object ID must return **403** (or equivalent) with n
 Whether user-controlled JSON inputs are validated and safely handled.
 
 **Result**  
-Unexpected and malformed inputs were accepted and processed. Backend behavior changed without clear rejection, indicating weak validation/sanitization.
+Unexpected and malformed inputs were accepted and processed. Backend behavior changed without clear rejection, indicating weak validation/sanitization. SQL-style and NoSQL-operator payloads submitted to `/api/appointments` returned **201 Created**, confirming unsafe acceptance of injection content.
 
 **Impact**
 - Unauthorized data manipulation risk
@@ -111,6 +114,28 @@ Unexpected and malformed inputs were accepted and processed. Backend behavior ch
 
 **Retest**  
 Malformed and out-of-schema payloads are rejected consistently; no behavioral anomaly or data mutation occurs.
+
+**Evidence**
+- [SQL payload accepted on appointments](evidence/injection/injection-sql-payload-appointments-accepted.png)
+- [NoSQL operators accepted on appointments](evidence/injection/injection-nosql-operators-appointments-accepted.png)
+- [Additional injection payload variant](evidence/injection/injection-payload-variant-appointments.png)
+
+---
+
+## Evidence index
+
+| Area | File |
+|------|------|
+| BOLA | [bola-cross-user-lab-results.png](evidence/bola/bola-cross-user-lab-results.png) |
+| Injection | [injection-sql-payload-appointments-accepted.png](evidence/injection/injection-sql-payload-appointments-accepted.png) |
+| Injection | [injection-nosql-operators-appointments-accepted.png](evidence/injection/injection-nosql-operators-appointments-accepted.png) |
+| Injection | [injection-payload-variant-appointments.png](evidence/injection/injection-payload-variant-appointments.png) |
+| Active recon | [active-recon-authenticated-get-messages.png](evidence/recon/active-recon-authenticated-get-messages.png) |
+| Passive recon | [passive-recon-api-documentation.png](evidence/recon/passive-recon-api-documentation.png) |
+| Passive recon | [passive-recon-source-review.png](evidence/recon/passive-recon-source-review.png) |
+| Passive recon | [passive-recon-endpoint-discovery.png](evidence/recon/passive-recon-endpoint-discovery.png) |
+| Test setup | [test-user-account-setup.png](evidence/recon/test-user-account-setup.png) |
+| Test setup | [test-user-authenticated-session.png](evidence/recon/test-user-authenticated-session.png) |
 
 ---
 
@@ -129,4 +154,4 @@ Malformed and out-of-schema payloads are rejected consistently; no behavioral an
 - Focused API pentest methodology (recon → authz → input → report)
 - Clear severity ranking and business-impact framing for sensitive data APIs
 - Practical use of Burp Suite / Postman for authorization abuse cases
-- Remediation language engineers can implement and retest
+- Evidence-linked findings with remediation language engineers can implement and retest

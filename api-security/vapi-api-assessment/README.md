@@ -60,6 +60,12 @@ Aligned to professional API penetration testing practice and OWASP API Security 
 - Authenticated request replay and ID manipulation
 - Credential-stuffing wordlist exposure review (lab resource directory)
 
+**Setup evidence**
+- [Git clone of vAPI](evidence/lab-setup/git-clone-vapi-repository.jpeg)
+- [Docker Compose pull](evidence/lab-setup/docker-compose-image-pull.jpeg)
+- [Containers running](evidence/lab-setup/docker-compose-containers-running.jpeg)
+- [Route mapping (Artisan)](evidence/attack-surface/artisan-route-list-api1-api3.jpeg)
+
 ---
 
 ## Findings
@@ -124,6 +130,30 @@ Login endpoint resilience and lab resources related to credential stuffing scena
 - Monitoring for stuffing patterns (velocity, IP/ASN anomalies)
 - Generic authentication error messages without account-oracle behavior
 
+**Evidence**
+- [Credential stuffing wordlist discovery](evidence/authentication/credential-stuffing-wordlist-discovery.jpeg)
+- [creds.csv contents](evidence/authentication/credential-stuffing-creds-csv.jpeg)
+- [Login 401 on stuffing attempt](evidence/authentication/login-401-stuffing-attempt.jpeg)
+
+---
+
+## Evidence index
+
+| Area | File |
+|------|------|
+| Lab setup | [git-clone-vapi-repository.jpeg](evidence/lab-setup/git-clone-vapi-repository.jpeg) |
+| Lab setup | [docker-compose-image-pull.jpeg](evidence/lab-setup/docker-compose-image-pull.jpeg) |
+| Lab setup | [docker-compose-containers-running.jpeg](evidence/lab-setup/docker-compose-containers-running.jpeg) |
+| Attack surface | [artisan-route-list-api1-api3.jpeg](evidence/attack-surface/artisan-route-list-api1-api3.jpeg) |
+| Attack surface | [artisan-route-list-api3-api8.jpeg](evidence/attack-surface/artisan-route-list-api3-api8.jpeg) |
+| Attack surface | [artisan-route-list-jwt-ssrf-endpoints.jpeg](evidence/attack-surface/artisan-route-list-jwt-ssrf-endpoints.jpeg) |
+| Authentication | [credential-stuffing-wordlist-discovery.jpeg](evidence/authentication/credential-stuffing-wordlist-discovery.jpeg) |
+| Authentication | [credential-stuffing-creds-csv.jpeg](evidence/authentication/credential-stuffing-creds-csv.jpeg) |
+| Authentication | [login-401-stuffing-attempt.jpeg](evidence/authentication/login-401-stuffing-attempt.jpeg) |
+| Baseline access | [api1-user-registration-curl.jpeg](evidence/authorization/api1-user-registration-curl.jpeg) |
+| Baseline access | [api1-user-registration-postman.jpeg](evidence/authorization/api1-user-registration-postman.jpeg) |
+| Baseline access | [api3-user-registration-postman.jpeg](evidence/authorization/api3-user-registration-postman.jpeg) |
+
 ---
 
 ## Recommendations (priority)
@@ -139,6 +169,6 @@ Login endpoint resilience and lab resources related to credential stuffing scena
 ## What this demonstrates
 
 - End-to-end lab deployment and attack-surface mapping
-- Practical BOLA and authentication testing against a JWT API
-- Clear separation of authn vs authz failures
-- Remediation priorities suitable for engineering backlogs
+- Practical authentication testing against a JWT API, including stuffing exposure
+- Clear separation of authn vs authz failure classes
+- Evidence-backed remediation priorities suitable for engineering backlogs

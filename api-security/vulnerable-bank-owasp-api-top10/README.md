@@ -1,23 +1,46 @@
-## Vulnerable Bank API — OWASP API Top 10 (2023) Assessment
+# Vulnerable Bank API — OWASP API Top 10 (2023) Assessment
 
-### Executive summary
+**Prepared by:** Edna Maburi  
+**Target:** Banking-style API (deliberately vulnerable lab, local containerized deployment)  
+**Type:** Full OWASP API Security Top 10 assessment  
+**Tools:** Postman · Burp Suite (Proxy, Repeater)
 
-This assessment evaluates a banking-style API (local deployment) against the **OWASP API Security Top 10 (2023)**. Coverage includes **API1–API10** plus **CORS** and **path traversal** in upload handling.
+> Lab assessment for portfolio demonstration. Not a production client engagement.
 
-**Cross-cutting theme:** weak enforcement at trust boundaries—**object ownership**, **function-level authorization**, **token integrity and session lifecycle**, and **input/schema validation**.
+## Executive summary
 
-### Scope & environment
+This assessment evaluates a banking-style API against the **OWASP API Security Top 10 (2023)**. Coverage includes **API1–API10** plus **CORS** and **path traversal** in upload handling.
+
+**Cross-cutting theme:** weak enforcement at trust boundaries — **object ownership**, **function-level authorization**, **token integrity and session lifecycle**, and **input/schema validation**.
+
+### Findings at a glance
+
+| ID | Finding | Severity | Primary impact |
+|----|---------|----------|----------------|
+| API1 | Broken Object Level Authorization (BOLA) | Critical | Cross-account data exposure |
+| API2 | Broken Authentication (token reuse / tampering) | Critical | Session abuse, privilege escalation |
+| API3 | Broken Object Property Level Authorization (BOPLA) | High | Privilege / financial field manipulation |
+| API4 | Unrestricted Resource Consumption | High | Brute-force / abuse enablement |
+| API5 | Broken Function Level Authorization (BFLA) | Critical | Unauthorized admin function access |
+| API6 | Unrestricted Access to Sensitive Business Flows | High | Business-logic abuse / fraud risk |
+| API7 | Server-Side Request Forgery (SSRF) | High | Internal network / metadata exposure |
+| API8 | Security Misconfiguration (upload path traversal) | High | Arbitrary file-path abuse |
+| API9 | Improper Inventory Management | Medium | Legacy endpoint bypass of newer controls |
+| API10 | Unsafe Consumption of APIs | Medium–High | Trust-boundary failures on untrusted input |
+| Extra | CORS misconfiguration | High | Cross-origin abuse of authenticated APIs |
+
+## Scope and environment
 
 - **Perspective tested:** authenticated standard user
 - **Environment:** containerized local deployment
-- **Tooling:** Postman (OpenAPI-driven cases); Burp Suite (proxy, repeater) for replay and header/path manipulation
+- **Tooling:** Postman (OpenAPI-driven cases); Burp Suite for replay and header/path manipulation
 
-### Capabilities demonstrated
+## Capabilities demonstrated
 
-- OWASP API Top 10 (2023) mapping with risk-ordered reporting  
-- Authorization testing: object-, function-, and property-level  
-- JWT/session controls: validation, abuse cases, retest criteria  
-- Evidence-backed findings with remediation aligned to common secure-design patterns  
+- OWASP API Top 10 (2023) mapping with risk-ordered reporting
+- Authorization testing: object-, function-, and property-level
+- JWT/session controls: validation, abuse cases, retest criteria
+- Evidence-backed findings with remediation and retest guidance
 
 ---
 

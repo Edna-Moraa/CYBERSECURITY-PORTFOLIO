@@ -1,15 +1,20 @@
-## Governance, Risk & Compliance (GRC)
+# Governance, Risk & Compliance (GRC)
 
-**What’s here:** governance writing, enterprise risk treatment, and a compliance-oriented technical vulnerability review. Folders are organized around **context, scope, approach, findings, recommendations, and artifacts**.
+Enterprise-focused security governance, risk treatment, and compliance-oriented technical assessments. Each project is organized around **context → scope → approach → findings → recommendations → artifacts**.
 
-### Contents
+## Projects
 
-- **Information Security Governance**  
-  [Information-security-governance/security_governance.md](Information-security-governance/security_governance.md) — governance structures, RACI, steering committees, and framework selection.
+| Project | Focus |
+|--------|--------|
+| **[Information Security Governance](Information-security-governance/)** | Governance structures, RACI, policy hierarchy, framework selection |
+| **[Information Risk Management](information-risk-management/)** | Qualitative + ALE quantitative prioritization and treatment planning |
+| **[Technical Vulnerability Assessment](vulnerability-assessment/)** | Nmap / Nikto / Nuclei findings mapped to exploit paths and control priorities |
+| **[Breach Governance Case Study](breach-governance-case-study/)** | Comparative analysis of Change Healthcare vs eCitizen — control failures and lessons |
 
-- **Information Risk Management**  
-  [information-risk-management/](information-risk-management/) — qualitative and quantitative risk assessment, risk register, treatment analysis, and recommendations.
+## Capabilities demonstrated
 
-- **Technical vulnerability assessment (GRC)**  
-  [vulnerability-assessment/](vulnerability-assessment/) — discovery, service/version analysis, compliance-oriented risk table, executive summary for management.
-
+- Security governance design and accountability modelling
+- Risk register design, qualitative scoring, and ALE-based prioritization
+- Translating scanner output into business risk and remediation roadmaps
+- Breach / incident governance analysis across regulatory contexts
+- Stakeholder-ready reporting for technical and leadership audiences

@@ -1,67 +1,82 @@
-**Cybersecurity Portfolio — Edna Maburi**
+# Cybersecurity Portfolio — Edna Maburi
 
-This repository holds **sample work** in **API security** and **governance, risk & compliance (GRC)**. Each project includes scope, evidence, findings, and remediation or next steps you can trace end to end.
+**API Security | Governance, Risk & Compliance (GRC) | Vulnerability Assessment**
 
-**How I work:** translate technical exposure into **business and compliance risk**, prioritize what matters for leadership, and specify remediations that engineering and operations can implement and verify.
+Nairobi, Kenya · [LinkedIn](https://linkedin.com/in/ednamaburi65) · [GitHub](https://github.com/Edna-Moraa) · ednamaburi65@gmail.com
 
-**Portfolio Structure**
+---
 
-**API Security**
+## About
 
-Projects focused on identifying, analyzing, and mitigating API vulnerabilities to build resilient applications.
+I am a cybersecurity professional with hands-on experience in **API security testing**, **vulnerability assessment**, and **GRC analysis**. My work focuses on turning technical findings into **business risk**, prioritized remediations, and controls that engineering and leadership can act on.
 
-Topics include:
+I currently work as a **Smart Meter Analytics Engineer** (IoT monitoring, anomaly detection, and risk-aware operational assurance) while building specialized capability in API security and GRC.
 
-* API security testing
-* Authentication and authorization flaws
-* OWASP API Security Top 10
-* Secure API design principles and best practices
+**How I work**
+- Clear scope and evidence-backed findings
+- Severity-ranked issues mapped to OWASP / business impact
+- Remediation guidance with retest criteria
+- Risk and governance framing for non-technical stakeholders
 
-**Governance, Risk & Compliance (GRC)**
+---
 
-Enterprise-focused security governance projects examining how organizations build, manage, and measure effective security programs.
+## Featured projects
 
-Topics include:
+| Project | Domain | What it demonstrates |
+|--------|--------|----------------------|
+| [Vulnerable Bank API — OWASP API Top 10](api-security/vulnerable-bank-owasp-api-top10/) | API Security | Full API1–API10 assessment with Burp Suite / Postman, evidence, remediation, and retest criteria |
+| [Zero-Health API Assessment](api-security/zero-health-api-assessment/) | API Security | Focused pentest on health-data APIs — BOLA and injection with high-severity impact analysis |
+| [vAPI Security Assessment](api-security/vapi-api-assessment/) | API Security | JWT auth testing, BOLA, credential-stuffing exposure, and endpoint authorization review |
+| [Information Risk Management](grc/information-risk-management/) | GRC | Qualitative + quantitative (ALE) risk prioritization with treatment recommendations |
+| [Technical Vulnerability Assessment](grc/vulnerability-assessment/) | GRC / Vuln Mgmt | Nmap, Nikto, Nuclei findings mapped to exploit paths, risk, and control priorities |
+| [Information Security Governance](grc/Information-security-governance/) | GRC | Governance structure, RACI, policy hierarchy, and framework selection approach |
+| [Breach Governance Case Study](grc/breach-governance-case-study/) | GRC | Comparative analysis of Change Healthcare vs eCitizen — controls, impact, and lessons |
 
-* information security governance
-* risk assessment and management
-* compliance frameworks and legal requirements
-* breach governance case studies
-* Policy development and security charter writing
+---
 
-**What this portfolio shows**
+## Portfolio structure
 
-* API security assessment (OWASP API Top 10)
-* Authorization and authentication testing (JWT/session patterns)
-* Technical vulnerability assessment with risk- and compliance-oriented reporting
-* Security governance and program design (GRC)
-* Risk quantification, treatment planning, and remediation prioritization
+```text
+api-security/     API penetration testing and OWASP-aligned assessments
+grc/              Governance, risk management, compliance, and vuln-to-risk reporting
+```
 
-**Tools and Technologies**
+- **[API Security](api-security/)** — authorization flaws, authentication weaknesses, OWASP API Security Top 10
+- **[GRC](grc/)** — governance design, risk registers, compliance-oriented vulnerability reporting, breach analysis
 
-* Python
-* Linux
-* API testing tools
-* Cloud platforms
-* Security governance frameworks
+---
 
-**About Me**
+## Tools and technologies
 
-Edna Maburi
-Cybersecurity Professional | Cloud Security | API Security | Governance Risk & Compliance
+| Category | Tools |
+|----------|--------|
+| API / App security | Burp Suite, Postman, OWASP API Security Top 10 |
+| Vulnerability assessment | Nmap, Nikto, Nuclei |
+| Scripting / systems | Python, Bash, Linux |
+| Cloud / security foundations | AWS (Cloud Foundations, Cloud Security Foundations) |
+| GRC / risk | Risk registers, ALE analysis, policy & control documentation |
+| Reporting | Markdown case studies, evidence-linked findings |
 
-I pair **hands-on testing** with **risk and control framing**: clear scope, evidence-backed findings, severity-ranked issues, and retest criteria.
+---
 
-**Contact Information**
+## Certifications (selected)
 
-### Quick navigation
+- Certified Governance Risk & Compliance Engineer (CGRCE) — ICDFA *(in progress)*
+- Cisco Ethical Hacker — Cyber Shujaa *(Distinction)*
+- APISec University — API Security (Fundamentals, Authentication, Gateway, Pentesting, PCI, IoT)
+- AWS Cloud Foundations & Cloud Security Foundations — AWS Academy
+- Cybersecurity Essentials — Cisco
 
-- **API Security**: [`api-security/`](api-security/)
-- **GRC**: [`grc/`](grc/)
+---
 
-### Public portfolio notice
+## Public portfolio notice
 
-Samples use **illustrative scenarios and synthetic data** where indicated—standard for a public profile. They reflect **methodology and analytical approach** without referencing actual clients or confidential environments. No production secrets or restricted data are included.
+Samples use **lab targets and illustrative/synthetic scenarios** where indicated. They demonstrate methodology and analytical approach **without** referencing confidential client environments. No production secrets or restricted data are included.
 
-- [LinkedIn](https://linkedin.com/in/ednamaburi65)
-- [GitHub](https://github.com/Edna-Moraa)
+---
+
+## Contact
+
+- **LinkedIn:** [linkedin.com/in/ednamaburi65](https://linkedin.com/in/ednamaburi65)
+- **GitHub:** [github.com/Edna-Moraa](https://github.com/Edna-Moraa)
+- **Email:** ednamaburi65@gmail.com

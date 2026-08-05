@@ -124,7 +124,7 @@ services organization (synthetic scenario)
 - **Regulatory alignment** — HIPAA, GDPR, PCI-DSS, SOX control mapping,
   audit readiness, compliance program design
 
-- **Board advisory** — Security metrics development, executive
+- **Board reporting support** — Security metrics development, executive
   reporting, risk communication, investment justification
 
 - **Framework implementation** — ISO 27001, NIST CSF, COBIT, COSO
@@ -133,17 +133,12 @@ services organization (synthetic scenario)
 - **Incident governance** — Post-incident reviews, root cause analysis,
   preventative control design
 
-## Sample outputs
+## Sample outputs in this folder
 
-**Healthcare technology governance program** — Governance charter,
-organizational blueprint, board reporting dashboard, steering committee
-terms of reference
-
-**Framework strategy (sample)** — Framework comparison analysis,
-implementation roadmap, control selection guidance
-
-**Governance maturity assessment** — Six-domain maturity assessment,
-18-month strategic roadmap, executive presentation
+- Governance scenario pack ([security_governance.md](security_governance.md))
+- Policy hierarchy artifact
+- Sample security RACI
+- Security Steering Committee charter outline
 
 ## Guiding principles
 
